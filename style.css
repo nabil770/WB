@@ -21,11 +21,17 @@
     color: black;
     position: absolute;
     top: 0%;
+    display: none;
     z-index: 99999;
 }
 
 @media screen and (min-width: 600px) {
-    
+    main {
+        display: none;
+    }
+    .block {
+        display: block;
+    }
 }
 
 .parallax{
